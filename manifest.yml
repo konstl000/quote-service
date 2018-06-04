@@ -1,0 +1,6 @@
+applications:
+- name: quote-service 
+  memory: 1G
+  random-route: true
+  instances: 1   
+  buildpack: java_buildpack_offline
